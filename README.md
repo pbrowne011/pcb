@@ -8,10 +8,10 @@ schematic and (possibly) a PCB design file.
 ## Schematics
 Some schematics I've designed so far:
 
-[Simple LED schematic](img/sch-simple-led.png)
+![Simple LED schematic](img/sch-simple-led.png)
 
 
 ## PCB Designs
 Some PCB designs I've created so far:
 
-[Simple LED schematic](img/pcb-simple-led.png)
+![Simple LED PCB](img/pcb-simple-led.png)
