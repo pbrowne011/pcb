@@ -521,6 +521,138 @@
 				)
 			)
 		)
+		(symbol "getting-started:M2011S3A1W03"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "M2011S3A1W03"
+				(at -1.016 -4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "getting-started:Switch_Toggle_SPST_NKK_M2011S3A1x03"
+				(at -1.016 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.016 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -1.016 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "spst switch toggle"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M2011S3A1W03_0_1"
+				(circle
+					(center -2.286 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0.254) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.286 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "M2011S3A1W03_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -847,16 +979,16 @@
 		(uuid "aa7d48c6-c910-4460-8814-67b30b8a2818")
 	)
 	(junction
-		(at 106.68 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e64faa81-ead0-4fab-b2f8-942c36845dc0")
-	)
-	(junction
 		(at 134.62 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e688a2c6-2ba7-413b-b7ec-214b880c682c")
+	)
+	(junction
+		(at 106.68 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8557e9e-cb17-4d81-9311-929943c79737")
 	)
 	(wire
 		(pts
@@ -867,16 +999,6 @@
 			(type default)
 		)
 		(uuid "1c81c582-663d-4f08-8df7-990c2b5475af")
-	)
-	(wire
-		(pts
-			(xy 106.68 62.23) (xy 106.68 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a5273b9-e59e-4cc6-95cd-f0277de383bc")
 	)
 	(wire
 		(pts
@@ -897,6 +1019,16 @@
 			(type default)
 		)
 		(uuid "83080a08-388f-4fdf-a0d7-8b801401b606")
+	)
+	(wire
+		(pts
+			(xy 106.68 48.26) (xy 106.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb56557-a79f-4a3f-9f22-82b9fd3ced7f")
 	)
 	(wire
 		(pts
@@ -930,7 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 106.68 62.23)
+			(xy 106.68 71.12) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -987,6 +1119,16 @@
 			(type default)
 		)
 		(uuid "edc1399d-a432-47c9-86cc-7bb554e7df08")
+	)
+	(wire
+		(pts
+			(xy 106.68 53.34) (xy 106.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff848fb1-145b-4bcd-8c2e-f50cdcd36489")
 	)
 	(label "led"
 		(at 160.02 80.01 90)
@@ -1061,6 +1203,76 @@
 			(project "kicad-tutorial"
 				(path "/79fea610-35cf-4c04-8af8-948f9b02c242"
 					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "getting-started:M2011S3A1W03")
+		(at 106.68 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a20acf4-94fb-4637-a6ee-47f01b9eb432")
+		(property "Reference" "SW1"
+			(at 107.95 64.7699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "M2011S3A1W03"
+			(at 107.95 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "getting-started:Switch_Toggle_SPST_NKK_M2011S3A1x03"
+			(at 104.648 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.648 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.648 67.056 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9a8aa5cf-8be6-4fe9-9463-47b70d157f66")
+		)
+		(pin "2"
+			(uuid "6837c918-de37-4e46-b14e-ca5fc915c425")
+		)
+		(instances
+			(project ""
+				(path "/79fea610-35cf-4c04-8af8-948f9b02c242"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1155,7 +1367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3K"
+		(property "Value" "1K"
 			(at 162.56 64.7699 0)
 			(effects
 				(font
@@ -1208,7 +1420,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 106.68 62.23 90)
+		(at 106.68 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1217,7 +1429,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f4e7a11-6822-415e-a214-4add52e88186")
 		(property "Reference" "#FLG01"
-			(at 104.775 62.23 0)
+			(at 104.775 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1438,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 102.87 62.2299 90)
+			(at 102.87 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 62.23 0)
+			(at 106.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1456,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 62.23 0)
+			(at 106.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1465,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 106.68 62.23 0)
+			(at 106.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
