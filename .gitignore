@@ -1,2 +1,7 @@
-# ignore backups
+# KiCad files
 **/*-backups/
+**/fp-info-cache
+**/*gerber*/
+
+# Emacs
+*~
