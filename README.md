@@ -8,15 +8,30 @@ schematic and (possibly) a PCB design file.
 ## Schematics
 Some schematics I've designed so far:
 
-<figure style="text-align: center">
-    <img src="img/sch-simple-led.png" style="width: 50%" alt="Simple LED schematic">
-    <figcaption>Simple LED schematic</figcaption>
-</figure>
+<div align=center>
+
+![Arduino UNO and right-shift register with 8
+LEDs](img/sch-sn74hc595n-8-led-output.png  | width=400)
+
+Arduino UNO and right-shift register with 8 LEDs
+
+![Simple LED schematic](img/sch-simple-led.png  | width=400)
+
+Simple LED schematic</div>
 
 ## PCB Designs
 Some PCB designs I've created so far:
+    
+<div align=center>
 
-<figure style="text-align: center">
-    <img src="img/pcb-simple-led.png" style="width: 50%" alt="Simple LED PCB">
-    <figcaption>Simple LED PCB</figcaption>
-</figure>
+![Arduino UNO and right-shift register with 8
+LEDs](img/pcb-sn74hc595n-8-led-output.png  | width=400)
+
+Arduino UNO and right-shift register with 8 LEDs
+
+![Simple LED PCB](img/pcb-simple-led.png  | width=400)
+
+Simple LED PCB
+
+</div>
+        
