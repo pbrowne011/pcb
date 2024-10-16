@@ -9,29 +9,19 @@ schematic and (possibly) a PCB design file.
 Some schematics I've designed so far:
 
 <div align=center>
-
-![Arduino UNO and right-shift register with 8
-LEDs](img/sch-sn74hc595n-8-led-output.png  | width=400)
-
-Arduino UNO and right-shift register with 8 LEDs
-
-![Simple LED schematic](img/sch-simple-led.png  | width=400)
-
-Simple LED schematic</div>
+    <img src="img/sch-sn74hc595n-8-led-output.png" width="50%" alt="Arduino UNO and right-shift register with 8 LEDs">
+    <p>Arduino UNO and right-shift register with 8 LEDs</p>
+    <img src="img/sch-simple-led.png" width="50%" alt="Simple LED schematic">
+    <p>Simple LED schematic</p>
+</div>
 
 ## PCB Designs
 Some PCB designs I've created so far:
     
 <div align=center>
-
-![Arduino UNO and right-shift register with 8
-LEDs](img/pcb-sn74hc595n-8-led-output.png  | width=400)
-
-Arduino UNO and right-shift register with 8 LEDs
-
-![Simple LED PCB](img/pcb-simple-led.png  | width=400)
-
-Simple LED PCB
-
+    <img src="img/pcb-sn74hc595n-8-led-output.png" width="50%" alt="Arduino UNO and right-shift register with 8 LEDs">
+    <p>Arduino UNO and right-shift register with 8 LEDs</p>
+    <img src="img/pcb-simple-led.png" width="50%" alt="Simple LED PCB">
+    <p>Simple LED PCB</p>
 </div>
         
